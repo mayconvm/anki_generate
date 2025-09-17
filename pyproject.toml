@@ -1,0 +1,11 @@
+[project]
+name = "AnkiGenerator"
+version = "0.1.0"
+description = "Generator cards about any topic using AI"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "crewai[all,tools]>=0.186.1",
+    "genanki>=0.13.1",
+    "pydantic>=2.11.9",
+]
