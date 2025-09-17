@@ -1,0 +1,20 @@
+# src/my_project/config/tasks.yaml
+search_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information given
+    year are 2024,2025.
+  expected_output: >
+    A list with 10 topics of the most relevant information about {topic}
+  agent: researcher
+
+question_answer_task:
+  description: >
+    Review the topics you got and create a list of questions and answers
+    based on the information you found.
+    Make sure the questions are clear and concise, and the answers are accurate and informative.
+  expected_output: >
+    To each topic, create 20 questions and answers.
+    Format it as markdown without '```'
+  agent: question_answer_specialist
+  output_file: report.md
