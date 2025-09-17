@@ -18,3 +18,9 @@ PYTHONPATH=src uv run src/anki/main.py --topic 'AWS Certified AI Practitioner' -
 
 # Output
 Será gerado um arquivo com a extensão `.apkg` que pode ser importado diretamente no Anki.
+
+# Ref
+* [crewAI](https://github.com/crewAIInc/crewAI/tree/main)
+* [genanki](https://github.com/kerrickstaley/genanki)
+* [ankiweb](https://ankiweb.net/)
+* [Agentes Inteligentes](https://physia.com.br/crewai1/)
