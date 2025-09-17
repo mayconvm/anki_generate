@@ -3,6 +3,8 @@
 Gerador de flashcards para Anki usando IA.
 
 # Run
+## Environment Variables
+* Crie um arquivo `.env` baseado no `.env.example` e preencha as chaves
 
 ## Sync
 ```bash
